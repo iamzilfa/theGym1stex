@@ -1,0 +1,30 @@
+.fa-thin {
+    color: red;
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+.nav-link {
+    font-size: 10px;
+}
+#danz{
+        margin: auto;
+      }
+
+#thec{
+    background-color: rgba(216, 213, 213, 0.247);
+}
+
+.col{
+    font-weight: bold;
+    color: rgb(146, 142, 142);
+}
+
+#wor{
+background-color:  #0e50df;
+text-align: center;
+color: white;
+height: 50px;
+}
