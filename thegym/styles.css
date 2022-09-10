@@ -94,6 +94,11 @@ height: 50px;
   color: black;
 }
 
+footer{
+  background-color: rgb(238, 234, 234); 
+  margin-top: 7%;
+}
+
 .zeli{
   font-size:11px;
   list-style: none;
@@ -116,6 +121,17 @@ height: 50px;
 }
 
 #egok a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.card-img-overlay{
+  position: relative;
+  margin-top: 6%;
+  margin-left: 3%;
+}
+
+#rir a:hover{
   text-decoration: underline;
   color: black;
 }
