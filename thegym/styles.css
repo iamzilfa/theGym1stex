@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9,45 +9,61 @@ body {
   box-sizing: border-box;
 }
 
-#jtyu{
-  margin-bottom: 1.5rem!important;
+#jtyu {
+  margin-bottom: 1.5rem !important;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-h4{
-color: black;
-font-size: small;
-font-weight: 600;
-font-family: inherit;
-line-height: 1.2;
+#mba{
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h4 {
+  color: black;
+  font-size: small;
+  font-weight: 600;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.2;
 }
 
 
-  .navbar {
-    height: 60px;
-  }
-
-.nav-link {
-    font-size: 10px;
+.navbar {
+  height: 60px;
 }
-#danz{
-        margin: auto;
-      }
 
-#thec{
-    background-color: rgba(216, 213, 213, 0.247);
+.nav-item a {
+  font-size: 14px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight:200;
 }
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+
+#danz {
+  margin: auto;
+}
+
+#thec {
+  background-color: rgba(216, 213, 213, 0.247);
+}
+
 /* 
 .col{
     font-weight: bold;
     color: rgb(146, 142, 142);
 } */
 
-#wor{
-background-color:  #0067b8!important;
-text-align: center;
-color: white;
-height: 50px;
+#cur{
+  cursor: pointer;
+}
+
+#wor {
+  background-color: #0067b8 !important;
+  text-align: center;
+  color: white;
+  height: 60px;
 }
 
 * {
@@ -55,12 +71,12 @@ height: 50px;
 }
 
 
-.btn{
-  background-color: #0067b8!important;
+.btn {
+  background-color: #0067b8 !important;
   color: white;
 }
 
-#detailTwo{
+#detailTwo {
   margin-left: 10%;
 }
 
@@ -74,7 +90,7 @@ height: 50px;
   font-size: 14px;
   border: none;
   outline: none;
-  background-color:rgba(167, 162, 162, 0.534);
+  background-color: rgba(167, 162, 162, 0.534);
   cursor: pointer;
   padding: 10px;
   color: rgba(0, 0, 0, 0.801);
@@ -94,44 +110,49 @@ height: 50px;
   color: black;
 }
 
-footer{
-  background-color: rgb(238, 234, 234); 
+/* .fa-solid{
+  position: absolute;
+  padding-top: 1px;
+} */
+
+footer {
+  background-color: rgb(238, 234, 234);
   margin-top: 7%;
 }
 
-.zeli{
-  font-size:11px;
+.zeli {
+  font-size: 11px;
   list-style: none;
 }
 
-#egok h6{
+#egok h6 {
   color: rgb(102, 99, 99);
   font-size: 15px;
   margin-bottom: 18px;
 }
 
-#egok li{
-  margin-bottom: 18px; 
+#egok li {
+  margin-bottom: 18px;
 }
 
-#egok a{
+#egok a {
   color: #616161;
   text-decoration: none;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-#egok a:hover{
+#egok a:hover {
   text-decoration: underline;
   color: black;
 }
 
-.card-img-overlay{
+.card-img-overlay {
   position: relative;
   margin-top: 6%;
   margin-left: 3%;
 }
 
-#rir a:hover{
+#rir:hover {
   text-decoration: underline;
   color: black;
 }

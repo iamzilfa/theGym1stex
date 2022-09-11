@@ -48,6 +48,9 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">Small Business</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Support</a>
+          </li>
         </ul>
         <div class="nav-item dropdown">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -59,18 +62,18 @@
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass"></i></a> -->
-              <img class="nav-link " src="https://res.cloudinary.com/zilfa/image/upload/v1662799316/search_eq1imh.svg"
+              <img id="cur" title="Search Microsoft.com" class="nav-link " src="https://res.cloudinary.com/zilfa/image/upload/v1662799316/search_eq1imh.svg"
                 alt="search icon">
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link active" href="#"><i class="fa-solid fa-cart-shopping"></i></a> -->
-              <img class="nav-link"
+              <img id="cur" title="0 item in shopping cart" class="nav-link"
                 src="https://res.cloudinary.com/zilfa/image/upload/v1662799076/shopping-cart_tnc7rj.svg"
                 alt="shopping cart">
             </li>
-            <li class="nav-item">
+            <li id="cur" class="nav-item">
               <!-- <a class="nav-link" href="#"><i class="fa-solid fa-circle-user"></i></a> -->
-              <img class="nav-link" src="https://res.cloudinary.com/zilfa/image/upload/v1662799054/user-plus_kpuzsw.svg"
+              <img title="Sign in to your account" class="nav-link" src="https://res.cloudinary.com/zilfa/image/upload/v1662799054/user-plus_kpuzsw.svg"
                 alt="user signin">
             </li>
           </ul>
@@ -81,8 +84,8 @@
   </nav>
   <div id="wor">
     <div class="container">
-      <p style="padding-top:12px;font-weight: bold;font-size: 15px;">
-        Student, parents, educators: Take up to 10% off* select tech, including select Surface. shop now
+      <p id="mba" style="padding-top:17px;font-weight: bold;font-size: 15px;">
+        Student, parents, educators: Take up to 10% off* select tech, including select Surface. shop now &nbsp; <span><a style="color: white" href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
       </p>
     </div>
   </div>
@@ -113,7 +116,7 @@
 
           <span><button type="button" class="btn btn-primary">Shops Surface deals</button></span>
           &nbsp; &nbsp;
-          <span><a href="" style="text-decoration: none; font-size:bold;">Book an appointment</a></span>
+          <span><a href="" style="text-decoration: none; font-size:bold;">Book an appointment</a></span> &nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
         </div>
 
       </div>
@@ -198,7 +201,7 @@
             <div id="detailOne">
               <h4>NBA 2K23</h4>
               <p>Rise to the occasion and realize your full potential in NBA 2K23. How will you Answer The Call?</p>
-              <span><a href="" style="text-decoration: none; font-size:bold;">Shop NBA 2K23 now</a></span>
+              <span><a href="" style="text-decoration: none; font-size:bold;">Shop NBA 2K23 now</a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
             </div>
           </div>
         </div>
@@ -209,10 +212,10 @@
             <img src="https://res.cloudinary.com/zilfa/image/upload/v1662701834/comput1_mnpxpp.png" class="card-img-top"
               alt="...">
             <br>
-            <div id="detailTwo">
-              <h4>Select Surface Go 3, up to $70 off</h4>
+            <div id="detailTwo" style="display:inline-block;" >
+              <h4 style="display:inline-block;">Select Surface Go 3, up to $70 off</h4>
               <p>Optimized for student needs—note-taking, sketching, Windows 11, and more. Starting at $479.99.</p>
-              <span><a href="" style="text-decoration: none; font-size:bold;">Shop Surface Go 3</a></span>
+              <span><a href="" style="text-decoration: none; font-size:bold;">Shop Surface Go 3</a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
             </div>
           </div>
         </div>
@@ -227,7 +230,7 @@
               <h4>Surface Pro 8 (i5) + Surface Pro Keyboard</h4>
               <p>Complete your study setup and save big when you bundle the most powerful Pro with a sleek, compact
                 Surface keyboard. Select devices starting at $899.99</p>
-              <span><a href="" style="text-decoration: none; font-size:bold;">Shop now</a></span>
+              <span><a href="" style="text-decoration: none; font-size:bold;">Shop now</a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
             </div>
           </div>
         </div>
@@ -241,7 +244,7 @@
             <div id="detailFour">
               <h4>Play like a pro</h4>
               <p>Experience the Xbox Elite Wireless Controller Series 2–Core in white.</p>
-              <span><a href="" style="text-decoration: none; font-size:bold;">Pre-order controller now</a></span>
+              <span><a href="" style="text-decoration: none; font-size:bold;">Pre-order controller now</a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
             </div>
           </div>
         </div>
@@ -252,10 +255,10 @@
   </div>
 
 
-  <div class="container" style="background-color: rgba(216, 213, 213, 0.322);margin-top: 5%;">
+  <div class="container" style="background-color: rgba(216, 213, 213, 0.322);margin-top: 5%;height:550px;">
     <div class="row">
 
-      <div class="col-7">
+      <div class="col-7" style="padding-left:100px;padding-top: 100px;">
         <br>
         <br>
         <br>
@@ -268,7 +271,7 @@
         <span><button type="button" class="btn btn-primary">Shops PC deals</button></span>
 
       </div>
-      <div class="col-5">
+      <div class="col-5" style="padding-top:100px;">
         <img src="https://res.cloudinary.com/zilfa/image/upload/v1662700591/computer-removebg-preview_jyxhqe.png">
       </div>
 
@@ -292,7 +295,7 @@
             <h4>Save up to $450 on select Surface Pro 8 for Business</h4>
             <p>Get unprecedented levels of performance and versatility on a 13-inch screen. Available with Windows 11.
             </p>
-            <p><a href="" style="text-decoration: none; font-size:bold;">Shop now</a></p>
+            <p> <span><a href="" style="text-decoration: none; font-size:bold;">Shop now</a></span> &nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span></p>
           </div>
         </div>
       </div>
@@ -305,7 +308,7 @@
           <div id="detailThree">
             <h4>Get Microsoft Teams for free</h4>
             <p>Online meetings, chat, and shared cloud storage—all in one place.</p>
-            <p><a href="#" style="text-decoration: none; font-size:bold;">Sign up for free</a></p>
+            <p><a href="#" style="text-decoration: none; font-size:bold;">Sign up for free</a>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span></p>
           </div>
         </div>
       </div>
@@ -319,8 +322,8 @@
             <h4>Microsoft 365 for business</h4>
             <p>Stay a step ahead with powerful apps for productivity, connection, and security. Make an appointment
               with an expert to determine the best solution for your business.</p>
-            <p><a href="#" style="text-decoration: none; font-size:bold;">Shop now</p></span>
-            <span><a href="#" style="text-decoration: none; font-size:bold;">Book a consultation</a></span>
+            <p> <span><a href="#" style="text-decoration: none; font-size:bold;">Shop now </a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span></p>
+            <span><a href="#" style="text-decoration: none; font-size:bold;">Book a consultation</a></span>&nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span>
           </div>
         </div>
       </div>
@@ -335,7 +338,7 @@
             <h4>Thrive in a hybrid world</h4>
             <p>Discover tools, resources, and strategies to help your employees succeed in the new world of flexible
               work.</p>
-            <p><a href="" style="text-decoration: none; font-size:bold;">Learn more</a></p>
+            <p> <span><a href="" style="text-decoration: none; font-size:bold;">Learn more</a> </span> &nbsp; <span><a href="#"><i class="fa-solid fa-chevron-right"></i></a></span> </p>
           </div>
         </div>
       </div>
@@ -551,7 +554,7 @@
         <a style="text-decoration: none;color:#616161;" href="#"><i class="fa-sharp fa-solid fa-earth-americas fa-2x"></i> &nbsp; &nbsp; <span style="text-decoration: none;color: inherit;">English (United States)</span>
         </a>
         <span style="float:right;">
-          <a style="margin-right:30px;text-decoration: none;color: #616161;" href="#">Sitemap</a>
+          <a id="rir" style="margin-right:30px;text-decoration: none;color: #616161;" href="#">Sitemap</a>
           <a style="margin-right:30px;text-decoration: none;color: #616161;" href="#">Contact Microsoft</a>
           <a style="margin-right:30px;text-decoration: none;color: #616161;" href="#">Privacy</a>
           <a style="margin-right:30px;text-decoration: none;color: #616161;" href="#">Terms of use</a>
